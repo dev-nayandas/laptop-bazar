@@ -1,4 +1,9 @@
+.product{
+    width: 300ppx;
+    height: 350px;
+    background-color: antiquewhite;
+}
 .product img{
-    width: 250px;
-    height: 300px;
+    width: 280px;
+    height: 200px;
 }
