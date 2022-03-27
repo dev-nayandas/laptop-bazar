@@ -2,17 +2,22 @@ import React from 'react';
 
 const Cart = ({cart}) => {
     //console.log(cart)
-    let n = 0;
+    const {img, name, id, price} = cart;
+    let laptop = 0;
     for(const product of cart){
-        console.log(product.name)
-        n = product.name
+        //console.log(product.name)
+        laptop = product.name
         
     
     }
     return (
         <div>
+            
            <p>Wish List</p>
-            <p>Favorite Laptop: {n}</p>
+
+           {
+            cart.map(product => laptop)        
+            }
         </div>
     );
 };
